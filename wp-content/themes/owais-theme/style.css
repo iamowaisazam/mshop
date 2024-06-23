@@ -1,0 +1,136 @@
+/*
+Theme Name:     Owais-theme
+Theme URI:      
+Description:    Oceanwp child theme.
+Author:         Me
+Author URI:     
+Template:       oceanwp
+Version:        0.1.0
+*/
+
+
+
+
+
+
+#right-sidebar .widget-title
+{
+	
+	border: 0px;
+  padding-left: 0px;
+	border-bottom: 1px solid lightgray;
+  padding-bottom: 16px;
+	
+}
+
+#right-sidebar .sidebar-box {
+	border: 1px solid lightgray;
+  padding: 14px;
+  border-radius: 4px;
+}
+
+
+#right-sidebar .widget_product_categories li a {
+    display: block;
+    font-size: 11px;
+    line-height: 1.6;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 0;
+    border-bottom: 0px solid #eaeaea;
+    color: #827373;
+}
+
+#right-sidebar .widget_product_categories .count {
+    padding: 0px!important;
+}
+
+
+ .entry-content .products h2 {
+	  margin-bottom:0px!important;
+}
+
+.home_page_popular_products h2{
+	margin-bottom:0px!important;
+}
+
+.widget_top_rated_products a {
+	color:black;
+}
+
+
+
+
+/* Cart Page */
+
+.wc-block-cart-items__header th,.wc-block-cart__totals-title{
+    font-size: 19px!important;
+    font-family: 'Poppins'!important;
+    font-weight: 500!important;
+}
+.wc-block-cart-items .wc-block-components-product-name{
+    color: black;
+}
+
+.wc-block-cart-items .wc-block-cart-item__total-price-and-sale-badge-wrapper .wc-block-formatted-money-amount{
+color: black!important;
+}
+
+.wc-block-cart__submit-button{
+    background: black!important;
+    color: white!important;
+    text-decoration: none!important;
+}
+
+.wc-block-cart-item__remove-link{
+    font-size: 12px!important;
+    text-decoration: none!important;
+    background: #dd3333!important;
+    color: white!important;
+    padding: 9px!important;
+    border-radius: 2px!important;
+}
+
+/* Cart Page */
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+
+
+footer .widget-title{
+	border: 0px;
+    padding-left: 0px;
+}
+
+
+
+footer #nav_menu-6{
+	max-width:165px;
+	margin-left:auto;
+}
+
+footer .col-1 img{
+    max-width: 190px!important;
+}
+
+@media screen and (max-width: 960px) {
+   
+    footer #nav_menu-6{
+        max-width:100%;
+        margin-left:0px;
+    }
+
+   
+
+  }
+
+
