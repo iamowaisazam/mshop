@@ -50,9 +50,15 @@ Version:        0.1.0
 	  margin-bottom:0px!important;
 }
 
-.home_page_popular_products h2{
+.home .woocommerce .products h2{
 	margin-bottom:0px!important;
 }
+
+.home .woocommerce .title a{
+	text-decoration:none!important;
+}
+
+
 
 .widget_top_rated_products a {
 	color:black;
